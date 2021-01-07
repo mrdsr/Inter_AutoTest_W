@@ -1,18 +1,21 @@
-#绝对路径
+# 绝对路径
 import os
 
 import yaml
 
+# add = os.path.dirname(os.path.abspath(__file__))
+#
+# file_path = add + "\config.yml"
+#
+# with open(file_path, encoding="utf-8") as f:
+#     a = yaml.safe_load_all(f)
+#
+#     for i in a:
+#         print(i)
+from untils.YamlUtils import YamlReadFlie
+
 add = os.path.dirname(os.path.abspath(__file__))
-print(add)
+file_path = add + "\config.yml"
 
-file_path = add + "/config.yml"
-
-
-with open(file_path) as f:
-    a = yaml.safe_load(f)
-    print(a)
-
-
-
-
+a = YamlReadFlie(file_path)
+print(a.oneFile())

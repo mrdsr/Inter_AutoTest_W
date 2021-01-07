@@ -8,11 +8,17 @@
 #- "a"
 #- "b"
 #- "c"
+#---
+#- pe: "我们家"
+#- person1:
+#  name: dai
+#  age: 99
+#- person2:
+#  - "a"
+#  - "b"
+#  - "c"
 
 
-person1:
-  name: dai
-  age: 99
-person2:
-  name: shuang
-  age: 88
+- "a"
+- "b"
+- "c"
