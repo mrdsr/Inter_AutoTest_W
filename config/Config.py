@@ -12,7 +12,7 @@ import yaml
 #
 #     for i in a:
 #         print(i)
-from untils.YamlUtils import YamlReadFlie
+from git_hub.untils.YamlUtils import YamlReadFlie
 
 add = os.path.dirname(os.path.abspath(__file__))
 file_path = add + "\config.yml"
