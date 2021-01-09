@@ -5,20 +5,12 @@
 
 
 
-#- "a"
-#- "b"
-#- "c"
-#---
-#- pe: "我们家"
-#- person1:
-#  name: dai
-#  age: 99
-#- person2:
-#  - "a"
-#  - "b"
-#  - "c"
-
-
-- "a"
-- "b"
-- "c"
+---
+- pe: "我们家"
+- person1:
+  name: dai
+  age: 99
+- person2:
+  - "a"
+  - "b"
+  - "c"

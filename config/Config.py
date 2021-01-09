@@ -18,4 +18,7 @@ add = os.path.dirname(os.path.abspath(__file__))
 file_path = add + "\config.yml"
 
 a = YamlReadFlie(file_path)
-print(a.oneFile())
+c = a.moreFile()
+print(c)
+for i in c:
+    print(i)

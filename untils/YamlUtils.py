@@ -19,14 +19,14 @@ class YamlReadFlie:
     # 封装读取单个文件的内容
     def oneFile(self):
         if not self._data:
-            with open(self.yaml_file, 'rb', encoding='utf-8') as f:
+            with open(self.yaml_file, 'rb') as f:
                 self._data = yaml.safe_load(f)
             return self._data
 
     # 读取Yaml文件为多个的方法
     def moreFile(self):
         if not self._moreDate:
-            with open(self.yaml_file, 'rb', encoding='utf-8') as f:
+            with open(self.yaml_file) as f:
                 self._moreDate = yaml.safe_load_all(f)
             return self._moreDate
         else:
