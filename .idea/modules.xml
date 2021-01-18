@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Inter_AutoTest_W.iml" filepath="$PROJECT_DIR$/.idea/Inter_AutoTest_W.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/git_hub.iml" filepath="$PROJECT_DIR$/.idea/git_hub.iml" />
     </modules>
   </component>
 </project>

@@ -26,8 +26,9 @@ class YamlReadFlie:
     # 读取Yaml文件为多个的方法
     def moreFile(self):
         if not self._moreDate:
-            with open(self.yaml_file) as f:
+            with open(self.yaml_file, 'rb') as f:
                 self._moreDate = yaml.safe_load_all(f)
-            return self._moreDate
+                for i in self._moreDate:
+                    return i
         else:
             raise FileExistsError
